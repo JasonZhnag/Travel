@@ -33,7 +33,7 @@ module.exports = {
       .set('@router', resolve('./src/router'))
       .set('@store', resolve('./src/store'))
       .set('@utils', resolve('./src/utils'))
-      .set('@styles', resolve('./src/assets/styles'))
+      .set('styles', resolve('./src/assets/styles'))
   },
   // 配置打包 js、css文件为.gz格式，优化加载速度  （参考：https://blog.csdn.net/qq_31677507/article/details/102742196）
   configureWebpack: config => {
